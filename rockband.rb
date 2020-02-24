@@ -1,7 +1,7 @@
 class Rockband
 
   attr_reader :instruments, :band_name, :lineup
-  attr_accessor :members, :genre, :songs, :funds, :status
+  attr_accessor :members, :genre, :songs, :funds
 
   def initialize(band_name, members, instruments, genre)
     @band_name= band_name
